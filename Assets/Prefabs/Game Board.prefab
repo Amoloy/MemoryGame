@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2378012902436897550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1514339896122975135}
+  - component: {fileID: 1986074208417515508}
+  m_Layer: 0
+  m_Name: Game Board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1514339896122975135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2378012902436897550}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1986074208417515508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2378012902436897550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432f91f21c7f39d47b310c920c3406c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fruits:
+  - {fileID: 21300000, guid: 54630739f6d1f6d468e9f3bb701bad81, type: 3}
+  - {fileID: 21300000, guid: e7348b877a5d5ad4cbd10f0c75b3b8e9, type: 3}
+  - {fileID: 21300000, guid: 9eda6aec6e20c15408e403dea20c3d18, type: 3}
+  - {fileID: 21300000, guid: 7b97116ffa3eff0488ff180a481f3ff0, type: 3}
+  - {fileID: 21300000, guid: 14cd25ed690c621469097c261b203906, type: 3}
+  - {fileID: 21300000, guid: 57fa9757ce8375c42b38e6a539796410, type: 3}
+  - {fileID: 21300000, guid: a00a61e322a77df4b86aff849c71b396, type: 3}
+  - {fileID: 21300000, guid: 62857acc5b1237e4497d41c6e6e2bcd3, type: 3}
+  - {fileID: 21300000, guid: c000a5904a120954a920e7b374acd1dc, type: 3}
+  - {fileID: 21300000, guid: 1ed5369e20b9a7e44aa8dcc6d9877ce8, type: 3}
+  - {fileID: 21300000, guid: bff157d1378d55f459a390c5f07ab587, type: 3}
+  - {fileID: 21300000, guid: e08130a1fdc6df6489630c045b40506e, type: 3}
+  - {fileID: 21300000, guid: 696451e2ce507634fbfd8f28ea38f79e, type: 3}
+  - {fileID: 21300000, guid: 1c089d73cd784d746989a2e0e596bbeb, type: 3}
+  - {fileID: 21300000, guid: e7583ca9ab0e2194fa58a47509d14817, type: 3}
+  - {fileID: 21300000, guid: 260f11701c4ba4b43b8c4ff5e05cf1ef, type: 3}
+  - {fileID: 21300000, guid: 8f4f128082095cd4e8c71faa9503d359, type: 3}
+  - {fileID: 21300000, guid: be0d0f319851ae94a9ddcea9d1edc4dd, type: 3}
+  - {fileID: 21300000, guid: 45d4d76a984a06448b3836672ea9c925, type: 3}
+  - {fileID: 21300000, guid: 0bb21ce7354afe74286203f5bc9f368a, type: 3}
+  - {fileID: 21300000, guid: 8b6d076dd32850d4091ad4ca7b3ffcd3, type: 3}
+  - {fileID: 21300000, guid: 0a502bdef7d2de44980147d499e93fae, type: 3}
+  - {fileID: 21300000, guid: fbbff45d66cd5cb42beb89f7f2f858ad, type: 3}
+  - {fileID: 21300000, guid: df062f95808c75a42a7733a37c7c3579, type: 3}
+  - {fileID: 21300000, guid: 609f527371d08b547b2b174a05c46ec4, type: 3}
+  - {fileID: 21300000, guid: 0d4be938a62c36b4bb3bcf0c85f7bef1, type: 3}
+  - {fileID: 21300000, guid: f3f971ba49a4a4e458a291d23c673b62, type: 3}
+  - {fileID: 21300000, guid: 92b3aa2d969b6af49950e33dcaaee4ad, type: 3}
+  - {fileID: 21300000, guid: aed8e779f7c2a2849b7326aa2c905a0a, type: 3}
+  - {fileID: 21300000, guid: 125da29774526c043a58f879fb8c576e, type: 3}
+  - {fileID: 21300000, guid: 39e3a1032c9ca1c47808a2b4b8c828f0, type: 3}
+  - {fileID: 21300000, guid: 818d90a880487784c997723f9f731fb6, type: 3}
+  - {fileID: 21300000, guid: 08aa685711c21bf45bd6054f40fe9e2c, type: 3}
+  - {fileID: 21300000, guid: 449b5e6c8aa40814e8c08f7789c3a929, type: 3}
+  CardPref: {fileID: 5397986609835079020, guid: cf305dce7b87b104698107c54b2da95a, type: 3}
+  startPos: {x: -8.5, y: 2, z: 0}
+  xOffset: 3.5
+  yOffset: -3.5
+  cardsCount: 24
+  CardScale: 0.7
+  cardsInRow: 8
+  cardsSameFruit: 2
+  OnMatchedCards:
+    m_PersistentCalls:
+      m_Calls: []
+  OnNotMatchedCards:
+    m_PersistentCalls:
+      m_Calls: []
